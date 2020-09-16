@@ -1,5 +1,4 @@
 # TPU Simulator
-
 This is a TPU-style systolic array functional/detailed simulator.
 
 <!--
@@ -37,13 +36,13 @@ $ ./runTPU -a activation.txt -b bias.txt -w weight.txt -l lut.txt -o output.txt 
 
 <!--The simulator also outputs the GreenTPU stats in the file green_tpu_stats.txt-->
 
-# Detailed simulation
 
+# Detailed Simulation
 For each MAC operation in any cycle, the sta_tool can be invoked to get a realistic circuit-level delay from the MAC netlist and from inputs in two consecutive cycles. This detailed simulation
 can be guided from a prior knowledge of input data-driven delay pattern.
 
-# Tackling timing errors
 
+# Tackling Timing Errors
 By default, timing errors are tackled using TE-Drop [1]. The simulator also has implementations of our GreenTPU [2] and EFFORT [3] techniques that offers a better resiliency against PV-induced timing errors at NTC.
 
 [1] Zhang, J. and others ThUnderVolt: Enabling Aggressive Voltage Underscaling and Timing Error Resilience for Energy Efficient Deep Neural Network Accelerators. arXiv preprint arXiv:1802.03806 (2018).
