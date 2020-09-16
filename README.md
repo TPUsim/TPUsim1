@@ -1,9 +1,6 @@
 TPU Simulator
 =============
 
-
-AUTHOR: PRABAL BASU (prabalb@aggiemail.usu.edu)
- 
 This is a TPU-style systolic array functional/detailed simulator.
 *Currently, only one layer of operation is supported.
 
@@ -51,6 +48,14 @@ By default, timing errors are tackled using TE-Drop [1]. The simulator also has 
 
 [3]  N. D. Gundi and others Effort: Enhancing energy efficiency and error resilience of a near-threshold tensor processing unit,” in 2020 25th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 241–246, IEEE, 2020.
 
+Core Developer
+==============
+Prabal Basu (prabalb@aggiemail.usu.edu)
+
+Additional Contributors
+=======================
+Pramesh Pandey (pandey.pramesh1@aggiemail.usu.edu)
+Noel Daniel Gundi (noeldaniel@aggiemail.usu.edu)
 
 
 <!--
