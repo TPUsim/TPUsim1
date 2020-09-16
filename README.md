@@ -13,6 +13,7 @@ How to generate debug build: make -f makefile_debug
 ### Extract delay file
 ```sh
 $ tar -xzvf delays.tar.gz
+$ python sequence_for_tpu_high.py <delay in ns> > high_delay_seqs.txt
 ```
 
 ### How to run: 
