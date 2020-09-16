@@ -1,6 +1,5 @@
 # TPU Simulator
 This is a TPU-style systolic array functional/detailed simulator.
-
 <!--
 Currently, only one layer of operation is supported.
 Source files: pstream.h, SystolicArray.hpp, SystolicArray.cpp, main.cpp
@@ -10,7 +9,6 @@ Makefile: makefile
 How to compile: make
 How to generate debug build: make -f makefile_debug
 -->
-
 ### How to run: 
 ```sh
 $ ./runTPU -h
@@ -51,8 +49,10 @@ By default, timing errors are tackled using TE-Drop [1]. The simulator also has 
 
 [3]  N. D. Gundi and others Effort: Enhancing energy efficiency and error resilience of a near-threshold tensor processing unit,” in 2020 25th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 241–246, IEEE, 2020.
 
+
 # Core Developer
 - Prabal Basu (prabalb@aggiemail.usu.edu)
+
 
 # Additional Contributors
 - Pramesh Pandey (pandey.pramesh1@aggiemail.usu.edu)
