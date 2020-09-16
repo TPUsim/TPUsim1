@@ -12,7 +12,7 @@ How to compile: make
 How to generate debug build: make -f makefile_debug
 -->
 
-How to run: 
+### How to run: 
 
 $ ./runTPU -h
  
