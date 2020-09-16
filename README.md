@@ -1,5 +1,5 @@
 # TPU Simulator
-This is a TPU-style [1] systolic array functional/detailed simulator.
+This is a TPU-style [1] systolic array functional/detailed simulator. The tool has been implemented using C++. The RTLs of the Multiply-Accummate Unit is used along with STA-tool to obtain the computational delays for various input combinations.
 
 ![!alt text](https://github.com/TPUsim/TPUsim/blob/master/docs/images/SystolicArray.png)
 <!--
