@@ -1,5 +1,7 @@
 # TPU Simulator
-This is a TPU-style [1] systolic array functional/detailed simulator. The tool has been implemented using C++. The RTLs of the Multiply-Accummate Unit is used along with STA-tool to obtain the computational delays for various input combinations.
+TPUsim is a TPU-style [1] Systolic Array functional/detailed simulator. This tool has been developed and maintained by [**Bridge LAB**](https://engineering.usu.edu/ece/faculty-sites/bridge-lab/) at **Utah State University** with the goal of promoting extensive reasearch in the AI training domain.
+
+TPUsim has been implemented using C++. The RTLs of the Multiply-Accummate Unit is used along with STA-tool to obtain the computational (path sensitized) delays for various input combinations. The usage of path sensitization delays aids in creating a real-time work simulation environment.
 
 ![!alt text](https://github.com/TPUsim/TPUsim/blob/master/docs/images/SystolicArray.png)
 <!--
