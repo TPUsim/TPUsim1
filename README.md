@@ -16,7 +16,8 @@ How to generate debug build: make -f makefile_debug
 ```sh
 $ ./runTPU -h
 ```
-Example: 
+
+#### Example: 
 ```sh
 $ ./runTPU -a activation.txt -b bias.txt -w weight.txt -l lut.txt -o output.txt -g green_tpu_stats.txt -d 8
 ```
