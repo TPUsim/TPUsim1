@@ -26,9 +26,13 @@ $ ./runTPU -a activation.txt -b bias.txt -w weight.txt -l lut.txt -o output.txt 
 >-a -> text file containing the activation matrix.
 
 > -b -> text file containing the bias matrix.
+
 > -w -> text file containing the weight matrix.
+
 > -l -> input/output text file that will be read and/or written with the last simulation's Error LUT for GreenTPU
+
 > -g -> text file that will contain the GreenTPU statistics.
+
 > -o -> text file that will contain the output matrix obtained by multiplying the activation and weight matrices through the systolic array.
 
 <!--The simulator also outputs the GreenTPU stats in the file green_tpu_stats.txt-->
