@@ -1,5 +1,5 @@
 # TPU Simulator
-This is a TPU-style [1] systolic array functional/detailed simulator. It is 
+This is a TPU-style [1] systolic array functional/detailed simulator.
 
 ![!alt text](https://github.com/TPUsim/TPUsim/blob/master/docs/images/SystolicArray.png)
 <!--
