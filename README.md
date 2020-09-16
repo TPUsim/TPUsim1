@@ -9,6 +9,12 @@ Makefile: makefile
 How to compile: make
 How to generate debug build: make -f makefile_debug
 -->
+
+### Extract delay file
+```sh
+$ tar -xzvf delays.tar.gz
+```
+
 ### How to run: 
 ```sh
 $ ./runTPU -h
