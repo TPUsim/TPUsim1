@@ -23,13 +23,13 @@ $ ./runTPU -a activation.txt -b bias.txt -w weight.txt -l lut.txt -o output.txt 
 ```
 > -d -> dimension of the weight, activation and bias matrices. d = 8 means 8x8 matrix. Also, the systolic array dimension is same as d.
 
->  -a -> text file containing the activation matrix.
--b -> text file containing the bias matrix.
+>-a -> text file containing the activation matrix.
+<!---b -> text file containing the bias matrix.
 -w -> text file containing the weight matrix.
 -l -> input/output text file that will be read and/or written with the last simulation's Error LUT for GreenTPU
 -g -> text file that will contain the GreenTPU statistics.
 -o -> text file that will contain the output matrix obtained by multiplying the activation and weight matrices through the systolic array.
-
+-->
 <!--The simulator also outputs the GreenTPU stats in the file green_tpu_stats.txt-->
 
 # Detailed simulation
