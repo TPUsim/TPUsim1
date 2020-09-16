@@ -1,5 +1,7 @@
 # TPU Simulator
 This is a TPU-style systolic array functional/detailed simulator.
+
+![!alt text](docs/images/temp.txt)
 <!--
 Currently, only one layer of operation is supported.
 Source files: pstream.h, SystolicArray.hpp, SystolicArray.cpp, main.cpp
