@@ -1,5 +1,5 @@
 # TPU Simulator
-This is a TPU-style systolic array functional/detailed simulator.
+This is a TPU-style [1] systolic array functional/detailed simulator. It is 
 
 ![!alt text](https://github.com/TPUsim/TPUsim/blob/master/docs/images/SystolicArray.png)
 <!--
@@ -50,13 +50,15 @@ can be guided from a prior knowledge of input data-driven delay pattern.
 
 
 ## Tackling Timing Errors
-By default, timing errors are tackled using TE-Drop [1]. The simulator also has implementations of our GreenTPU [2] and EFFORT [3] techniques that offers a better resiliency against PV-induced timing errors at NTC.
+By default, timing errors are tackled using TE-Drop [2]. The simulator also has implementations of our GreenTPU [3] and EFFORT [4] techniques that offers a better resiliency against PV-induced timing errors at NTC.
 
-[1] Zhang, J. and others ThUnderVolt: Enabling Aggressive Voltage Underscaling and Timing Error Resilience for Energy Efficient Deep Neural Network Accelerators. arXiv preprint arXiv:1802.03806 (2018).
+[1] Jouppi, N. P. and others In-datacenter performance analysis of a tensor processing unit. In Computer Architecture (ISCA), 2017 ACM/IEEE 44th Annual International Symposium on (2017), IEEE, pp. 1–12.
 
-[2] P. Pandey and others Greentpu: Improving timing error resilience of a near-threshold tensor processing unit,” in IEEE/ACM Design Automation Conference (DAC), pp. 173:1–173:6, 2019.
+[2] Zhang, J. and others ThUnderVolt: Enabling Aggressive Voltage Underscaling and Timing Error Resilience for Energy Efficient Deep Neural Network Accelerators. arXiv preprint arXiv:1802.03806 (2018).
 
-[3]  N. D. Gundi and others Effort: Enhancing energy efficiency and error resilience of a near-threshold tensor processing unit,” in 2020 25th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 241–246, IEEE, 2020.
+[3] P. Pandey and others Greentpu: Improving timing error resilience of a near-threshold tensor processing unit,” in IEEE/ACM Design Automation Conference (DAC), pp. 173:1–173:6, 2019.
+
+[4]  N. D. Gundi and others Effort: Enhancing energy efficiency and error resilience of a near-threshold tensor processing unit,” in 2020 25th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 241–246, IEEE, 2020.
 
 
 ## Core Developer
