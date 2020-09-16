@@ -1,11 +1,4 @@
-####### ####### #     #       ####### ####### #       #
-   #    #     # #     #       #          #    # #   # # 
-   #    #     # #     #       #          #    #   #   #
-   #    ####### #     #  ###  #######    #    #   #   #
-   #    #       #     #             #    #    #       #
-   #    #       #     #             #    #    #       #
-   #    #       #######       ####### ####### #       #
-
+TPU Simulator
 AUTHOR: PRABAL BASU (prabalb@aggiemail.usu.edu)
  
 This is a TPU-style systolic array functional/detailed simulator.
