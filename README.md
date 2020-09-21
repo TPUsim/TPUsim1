@@ -1,9 +1,9 @@
 # SMA Simulator
 SMAsim is a TPU-style [1] Systolic Array functional/detailed simulator. This tool has been developed and maintained by [**Bridge LAB**](https://engineering.usu.edu/ece/faculty-sites/bridge-lab/) at **Utah State University** with the goal of promoting extensive research in the AI training domain.
 
-TPUsim has been implemented using C++. The RTLs of the Multiply-Accummate Unit is used along with a STA-tool to obtain the computational (path sensitized) delays for various input combinations. The usage of path sensitization delays aids in creating a real-time simulation environment.
+SMAsim has been implemented using C++. The RTLs of the Multiply-Accummate Unit is used along with a STA-tool to obtain the computational (path sensitized) delays for various input combinations. The usage of path sensitization delays aids in creating a real-time simulation environment.
 
-![!alt text](https://github.com/TPUsim/TPUsim/blob/master/docs/images/SystolicArray.png)
+![!alt text](https://github.com/bridgelabUSU/SMAsim/blob/master/docs/images/SystolicArray.png)
 <!--
 Currently, only one layer of operation is supported.
 Source files: pstream.h, SystolicArray.hpp, SystolicArray.cpp, main.cpp
