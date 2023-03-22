@@ -70,4 +70,4 @@ By default, timing errors are tackled using TE-Drop [2]. The simulator also has 
 
 ## Additional Contributors
 - Pramesh Pandey (pandey.pramesh1@aggiemail.usu.edu)
-- Noel Daniel Gundi (noeldaniel@aggiemail.usu.edu)
+- Noel Daniel Gundi (noeldaniel.gundi@usu.edu)
